@@ -101,7 +101,7 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/afifrohul" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -112,18 +112,18 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
+            <Link href="https://twitter.com/afif__rohul" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @afifrohul
+                @afif__rohul
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="https://instagram.com/afif.rohul" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
