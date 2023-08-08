@@ -22,17 +22,17 @@ const Projects = () => (
           <GridItem
             title="Web company profile of hmifunej and more stuff about hmifunej."
             thumbnail={thumbHmif}
-            href="https://www.youtube.com/watch?v=bSMZgXzC9AA"
+            href="https://hmifunej.id"
           />
           <GridItem
             title="E-commerce of brand hmifunej named IFMERCH."
             thumbnail={thumbIfmerch}
-            href="https://www.youtube.com/watch?v=-qBavwqc_mY"
+            href="https://ifmerch-hmifunej.id"
           />
           <GridItem
             title="Web profile of magma class High School 1 Jember."
             thumbnail={thumbMagma}
-            href="https://www.youtube.com/watch?v=KKxhf50FIPI"
+            href="https://magmasmasa.github.io"
           />
         </SimpleGrid>
       </Section>

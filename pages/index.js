@@ -14,6 +14,7 @@ import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
+import { BioSection, BioYear } from '../components/bio'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import Image from 'next/image'
 
@@ -93,6 +94,20 @@ const Home = () => (
             My Project
           </Button>
         </Box>
+      </Section>
+
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Experience
+        </Heading>
+        <BioSection>
+          <BioYear>2022</BioYear>
+          Staff of Technology - HMIFUNEJ
+        </BioSection>
+        <BioSection>
+          <BioYear>2023 to present</BioYear>
+          Head Sub Division of Technology - HMIFUNEJ
+        </BioSection>
       </Section>
 
       <Section delay={0.3}>
